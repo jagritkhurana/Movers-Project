@@ -26,23 +26,23 @@ function FeatureCard({
     <motion.div
     variants={item}
     
-    className=' flex w-full max-w-[1216px] rounded-[50px] flex-col justify-start shadow-xl items-start gap-1 bg-white p-10'>
+    className=' flex w-[370px] rounded-[40px] md:w-full md:max-w-[1216px] md:rounded-[50px] flex-col justify-start shadow-xl items-start gap-1 bg-white p-10'>
         <div className='flex gap-6 justify-center items-center'>
-            <img src={icon} className='w-[22px] h-[22px]' />
-            <p className='font-semibold tracking-wider text-[25px]'>{title}</p>
+            <img src={icon} className='w-[15px] h-[15px] md:w-[22px] md:h-[22px]' />
+            <p className='font-semibold text-[18px] md:tracking-wider md:text-[25px]'>{title}</p>
         </div>
-        <div className='flex justify-center flex-col items-start ml-12 gap-1'>
+        <div className='flex items-start justify-start md:justify-center flex-col ml-10  md:ml-12 gap-1'>
             {discription.map((line,index)=>(
                 <p
                 key={index}
-                className='text-gray-600 text-lg opacity-90'
+                className='text-gray-600 text-xs md:text-lg opacity-90'
                 > {line}</p>
             ))}
 
-        </div>
-
+        </div> 
+ 
     </motion.div>
-    </>
+    </> 
   )
 }
 
