@@ -19,7 +19,7 @@ function FeatureCard({
     vissible:{opacity:1,y:0,scale:1,transition:{
         duration:1,
         ease:easeInOut,
-    }}
+    }} 
   }
   return (
     <>

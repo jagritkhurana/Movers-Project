@@ -64,8 +64,9 @@ function Home() {
                 <div className=' hidden md:block md:relative md:w-1/2'>
                     <motion.div
                         initial={{ opacity: 0, x: 100 }}
-                        animate={{ opacity: 1, x: 0 }}
+                        whileInView={{ opacity: 1, x: 0 }}
                         transition={{ ease: easeInOut, duration: 2 }}
+                        viewport={{amount:0.2}}
                         className='relative'>
                         <img
                             src="/Baground.svg"
