@@ -72,7 +72,7 @@ function Home() {
                             src="/Baground.svg"
                             className='absolute top-5 left-5 z-0'
                         />
-                        <img src="/Main.svg" className=' relative mt-20 h-auto object-contain  ' />
+                        <img src="https://media.licdn.com/dms/image/v2/C4E22AQET0EgfTT0iLw/feedshare-shrink_800/feedshare-shrink_800/0/1603824924124?e=2147483647&v=beta&t=CtgmdHRACHtiL5_3b6vUpN4Zu34Fn74UHNhUKDjDMx8" className=' relative mt-20  object-cover w-[523px] h-[586px] rounded-[36px] ' />
 
                     </motion.div>
 
