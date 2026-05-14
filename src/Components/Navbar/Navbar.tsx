@@ -19,7 +19,7 @@ function Navbar() {
             <li>
               <a href="#Features">Features</a>
             </li>
-            <li>
+            <li> 
               <a href="#FAQ">FAQ</a>
             </li>
             <li>

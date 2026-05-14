@@ -6,7 +6,7 @@ function Home() {
         <section id='Home'>
 
             <div className='min-h-screen bg-[linear-gradient(180deg,#cddcf3_0%,#e9edf4_28%,#ffffff_52%,#eef7f6_76%,#d8f3f1_100%)] flex '>
-                <div className='w-screen mt-20 md:w-1/2 md:m-25'>
+                <div className='w-full mt-20 md:w-1/2 md:m-25'>
                     <div className=' flex justify-center items-center  flex-col gap-1 md:justify-start md:items-start'>
                         <p className='text-[25px] md:text-[45px] text-blue-700 font-semibold  tracking-wide'>Drive Smart. <span className='text-black'>Log Smarter.</span></p>
                         <p className='text-[25px] md:text-[45px] font-semibold ml-1  tracking-wider'>Effortless Log Tracking</p>
