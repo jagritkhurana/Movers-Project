@@ -5,13 +5,13 @@ function Contactus() {
  
     <>
       <section id='Contact'>
-        <div className='w-auto h-auto pb-20 md:pb-0 rounded-[80px] md:rounded-[98px] bg-[linear-gradient(90deg,_#eaf6fb_0%,_#f3f4fb_52%,_#f6eaf5_100%)]'>
+        <div className='w-auto h-auto pb-20 md:pb-0 rounded-[80px] md:rounded-[98px]  bg-[linear-gradient(195deg,#FFEDD5_0%,#FFFFFF_45%,#FAF1EC_100%)]'>
           <div className='flex flex-col justify-center items-center md:flex-row md:justify-start md:items-start md:gap-10'>
             <div className='flex flex-col w-auto gap-5   md:items-start m-15 md:ml-[175px] mr-0'>
-              <h1 className=' text-[30px] md:text-[45px]  font-semibold tracking-wider md:ml-[10px]'>Contact Us</h1>
-              <p className='text-[22px] opacity-80  md:ml-[10px]'>Got questions or feedback? </p>
-              <p className='text-[22px] opacity-80 mr-[55px] mt-[-20px] md:ml-[10px]'>
-               We’d love to hear from you!</p>
+              <h1 className=' text-[30px] md:text-[45px]  font-semibold tracking-wider md:ml-[10px] text-[#18181B]'>Contact Us</h1>
+              <p className='text-[22px] opacity-80  md:ml-[10px] text-[#18181B]'>Got questions or feedback? </p>
+              <p className='text-[22px] opacity-80 mr-[55px] mt-[-20px] md:ml-[10px] text-[#18181B]'>
+               We’d love to hear from you!</p> 
                <img src="/Contact.svg" className='hidden md:block'  />
 
 
@@ -33,7 +33,7 @@ function Contactus() {
               placeholder='Write Us'
               className='border-gray-400/40 border p-2 font-bold  w-[300px] h-[50px] text-black md:w-[545px] md:h-[50px]'
               />
-             <button className='md:w-[545px] md:h-[50px] text-white font-semibold  w-[300px] h-[50px] opacity-80 bg-blue-600 flex justify-center items-center'>
+             <button className='md:w-[545px] md:h-[50px] text-white font-semibold  w-[300px] h-[50px] opacity-80 bg-[#C2410C] flex justify-center items-center'>
               SEND
              </button>
 
@@ -42,7 +42,7 @@ function Contactus() {
                 <img src="/Phone.svg" className='w-[20px] h-[20px] md:w-[28px] md:h-[28px]' />
                 <div className='flex flex-col gap-0.5'>
                   <p className='text-xs md:text-sm font-semibold opacity-65'>PHONE</p>
-                  <p className='text-xs md:text-sm text-blue-600 opacity-90'>03 5432 1234</p>
+                  <p className='text-xs md:text-sm text-[#C2410C] opacity-90'>12 3456 7890</p>
 
                 </div>
 
@@ -51,7 +51,7 @@ function Contactus() {
                 <img src="/Fax.svg" className='w-[20px] h-[20px] md:w-[28px] md:h-[28px]' />
                 <div className='flex flex-col gap-0.5'>
                   <p className='text-xs md:text-sm font-semibold opacity-65'>FAX</p>
-                  <p className='text-xs md:text-sm text-blue-600 opacity-90'>03 5432 1234</p>
+                  <p className='text-xs md:text-sm text-[#C2410C] opacity-90'>12 3456 7890</p>
 
                 </div>
 
@@ -60,7 +60,7 @@ function Contactus() {
                 <img src="/Email.svg" className='w-[20px] h-[20px] md:w-[28px] md:h-[28px]' />
                 <div className='flex flex-col gap-0.5'>
                   <p className='text-xs md:text-sm font-semibold opacity-65'>EMAIL</p>
-                  <p className='text-xs md:text-sm text-blue-600 opacity-90'>info@marcc.com.au</p>
+                  <p className='text-xs md:text-sm text-[#C2410C] opacity-90'>info@xyzx.com.in</p>
 
                 </div>
 

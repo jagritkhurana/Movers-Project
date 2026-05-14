@@ -4,7 +4,7 @@ import { easeInOut, easeOut, motion, scale} from 'motion/react'
 
 
 type FeatureCardsin={
-    icon:string,
+    icon:string, 
     title:string,
     discription:string[]
 }
@@ -29,13 +29,13 @@ function FeatureCard({
     className=' flex w-[370px] rounded-[40px] md:w-full md:max-w-[1216px] md:rounded-[50px] flex-col justify-start shadow-xl items-start gap-1 bg-white p-10'>
         <div className='flex gap-6 justify-center items-center'>
             <img src={icon} className='w-[15px] h-[15px] md:w-[22px] md:h-[22px]' />
-            <p className='font-semibold text-[18px] md:tracking-wider md:text-[25px]'>{title}</p>
+            <p className='font-semibold text-[18px] text-[#18181B] md:tracking-wider md:text-[25px]'>{title}</p>
         </div>
         <div className='flex items-start justify-start md:justify-center flex-col ml-10  md:ml-12 gap-1'>
             {discription.map((line,index)=>(
                 <p
                 key={index}
-                className='text-gray-600 text-xs md:text-lg opacity-90'
+                className='text-[#52525B] text-xs md:text-lg opacity-90'
                 > {line}</p>
             ))}
 

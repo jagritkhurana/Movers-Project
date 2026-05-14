@@ -21,16 +21,16 @@ function Choosing() {
   
   return (
     <> 
-    <section id=''>
+    <section id='Choosing'>
 
       <div className='md:w-auto md:h-auto mt-10'>
         <div className='flex gap-10'>
 
           <div className=' flex flex-col gap-0 m-7 md:m-15 md:px-[135px] md:justify-center md:items-center'>
-            <h1 className=' md:text-[45px] font-semibold tracking-wider'>Why Choose Our App?</h1>
+            <h1 className=' md:text-[45px] text-[#18181B] font-semibold tracking-wider'>Why Choose Our App?</h1>
             <img src="/Br.svg" className='md:ml-[-250px]' />
           </div>
-          <div className='hidden md:flex justify-center items-center text-[22px] opacity-80'>
+          <div className='hidden md:flex justify-center text-[#52525B] items-center text-[22px] opacity-80'>
             <p>What Make Us Unique & Different From Others!</p>
           </div> 
   
@@ -47,7 +47,7 @@ function Choosing() {
           <div className='flex flex-col md:flex-row gap-10 mb-0 m-10 md:ml-50'>
             <ChooseCard
               title="Stay Compliant"
-              discription='Always drive within government guidelines with real-time alerts.'
+              discription='Stay within government regulations with instant real-time alerts.'
               />
             <motion.img
               variants={item}
@@ -59,17 +59,17 @@ function Choosing() {
               <ChooseCard
                 title='Seamless Truck 
                 Trading'
-                discription='Buy or sell trucks with ease using detailed filters and in-app chat.'
+                discription='Buy or sell trucks effortlessly using advanced filters and in-app messaging.'
                 />
               <ChooseCard
                 title='Easy Log 
                 Management'
-                discription='Graphical views and editable logs for complete transparency.'
+                discription='Graphical insights and editable logs for complete transparency.'
               />
               <ChooseCard
                 title='Community-Driven 
-Navigation'
-discription='Graphical views and editable logs for complete transparency.'
+                Navigation'
+                discription='Graphical views and editable logs for complete transparency.'
               />
 
             </div>

@@ -15,7 +15,7 @@ function ChooseCard({
     hidden:{opacity:0,x:150,scale:0.96},
     vissible:{opacity:1,x:0,scale:1,transition:{
         duration:1,
-        ease:easeInOut,
+        ease:easeInOut, 
     }}
   }
 
@@ -27,14 +27,14 @@ function ChooseCard({
         <>
             <motion.div 
             variants={item}
-            className='md:w-[373px] md:h-[295px] p-10 rounded-[44px] flex flex-col gap-3 overflow-auto bg-[linear-gradient(135deg,_#f5f5f5_0%,_#dde7f4_50%,_#bfd1e8_100%)]'>
-                <h1 className='font-semibold tracking-wider text-[25px] overflow-auto'>
+            className='md:w-[373px] md:h-[295px] p-10 rounded-[44px] flex flex-col gap-3 overflow-auto bg-[linear-gradient(135deg,#FFFFFF_0%,#FAF1EC_100%)] shadow-sm border border-[#FAF1EC] hover:shadow-md transition-shadow duration-300'>
+                <h1 className='font-semibold tracking-wider text-[#18181B] text-[25px] overflow-auto'>
                     {firstpart}
                     <br />
                     {secondpart}
 
                 </h1>
-                <p className='text-gray-600 text-lg text-[18px] leading-7 opacity-90 w-[250px]'>{discription}</p>
+                <p className='text-[#52525B] text-lg text-[18px] leading-7 opacity-90 w-[250px]'>{discription}</p>
             </motion.div>
         </>
     )

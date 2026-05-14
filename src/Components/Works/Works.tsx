@@ -25,10 +25,10 @@ function Works() {
     <>
       <section id='Works'>
 
-        <div className='md:w-auto  md:h-auto mt-10 bg-[linear-gradient(90deg,_#eaf6fb_0%,_#f3f4fb_52%,_#f6eaf5_100%)] pb-20 rounded-[80px] md:rounded-[98px]'>
+        <div className='md:w-auto  md:h-auto mt-10 bg-[linear-gradient(195deg,#FFEDD5_0%,#FFFFFF_45%,#FAF1EC_100%)] pb-20 rounded-[80px] md:rounded-[98px]'>
           <div className='flex md:flex md:gap-10'>
             <div className=' flex gap-2 md:gap-0 m-15 md:px-[135px] md:justify-center md:items-center'>
-              <h1 className=' text-[30px] md:text-[45px] font-semibold tracking-wider'><span className=' md:text-[45px] font-semibold tracking-wider text-blue-800'>How It</span> Works</h1>
+              <h1 className=' text-[30px] md:text-[45px] font-semibold tracking-wider text-[#18181B]'><span className=' md:text-[45px] font-semibold tracking-wider text-[#C2410C]'>How It</span> Works</h1>
               <img src="/Work.svg" className='w-[50px] mt-2 md:ml-10 md:mt-2 md:w-[120px]' />
             </div>
 
@@ -43,23 +43,23 @@ function Works() {
             className='w-auto h-auto grid grid-cols-1  md:grid-cols-3  md:w-[1200px] md:h-[550px] md:ml-[130px]'>
 
             <motion.div
-              variants={item} className='border-r-2 border-b-2   border-black/25 '>
+              variants={item} className='border-r-2 border-b-2  border-[#18181B]/10 '>
               <WorkCard
                 title='Seamless Truck 
               Trading'
-                discription='Quick registration with email or mobile number verification.'
+                discription='Fast registration with email or mobile number authentication.'
               />
             </motion.div>
             <motion.div
-              variants={item} className='border-b-2 border-r-2  border-black/25 '>
+              variants={item} className='border-b-2 border-r-2 border-[#18181B]/10 '>
               <WorkCard
                 title='Log Your 
               Time'
-                discription='Real-time activity logging with smart suggestions.'
+                discription='Live activity tracking with intelligent suggestions.'
               />
             </motion.div>
             <motion.div
-              variants={item} className=' border-b-2 border-black/25 '>
+              variants={item} className=' border-b-2 border-[#18181B]/10 '>
               <WorkCard
                 title='Stay 
               Connected'
@@ -67,7 +67,7 @@ function Works() {
               />
             </motion.div>
             <motion.div
-              variants={item} className='border-b-2  md:border-r-2 md:border-b-0  border-black/25 '>
+              variants={item} className='border-b-2  md:border-r-2 md:border-b-0 border-[#18181B]/10 '>
               <WorkCard
                 title='View & Manage 
               Logs'
@@ -75,17 +75,17 @@ function Works() {
               />
             </motion.div>
             <motion.div
-              variants={item} className='border-b-2  md:border-r-2 md:border-b-0  border-black/25 '>
+              variants={item} className='border-b-2  md:border-r-2 md:border-b-0 border-[#18181B]/10 '>
               <WorkCard
                 title='Buy & Sell 
               Trucks'
-                discription='Effortlessly publish your truck or find pre-owned trucks.'
+                discription='Easily list your truck or discover pre-owned trucks.'
               />
-            </motion.div>
+            </motion.div> 
             <motion.div
               variants={item}
               className='p-10 ml-5 flex gap-2 flex-col'>
-              <p className='text-[30px] font-semibold tracking-wider'><span className='text-[30px] font-semibold tracking-wider text-blue-800'>Download </span>Now</p>
+              <p className='text-[30px] font-semibold tracking-wider text-[#18181B]'><span className='text-[30px] font-semibold tracking-wider text-[#C2410C]'>Download </span>Now</p>
               <div className='flex flex-col gap-1'>
                 <img src="/Google.svg" className='w-[170px] h-[60px]' />
                 <img src="/Apple.svg" className='w-[170px] h-[60px] ' />

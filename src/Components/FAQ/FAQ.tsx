@@ -8,8 +8,8 @@ function FAQ() {
       <section id='FAQ'>
         <div className='md:w-auto md:h-auto mt-10 pb-10'>
           <div className='flex flex-col justify-center items-center md:justify-start md:items-start'>
-            <h1 className=' text-[30px] md:text-[45px] md:m-15 md:px-[120px] font-semibold tracking-wider text-blue-600'>FAQ</h1>
-            <p className='text-[18px] opacity-80 md:mt-[-50px] md:px-[120px] md:ml-15'>Frequently Asked question.</p>
+            <h1 className=' text-[30px] md:text-[45px] md:m-15 md:px-[120px] font-semibold tracking-wider text-[#C2410C] '>FAQ</h1>
+            <p className='text-[18px] opacity-80 md:mt-[-50px] md:px-[120px] md:ml-15 text-[#18181B]'>Frequently Asked question.</p>
           </div>
           <div className='flex flex-col md:flex-row m-15 justify-center items-center gap-10'>
 

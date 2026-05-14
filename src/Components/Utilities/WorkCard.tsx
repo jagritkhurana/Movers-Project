@@ -29,12 +29,12 @@ function WorkCard({
     <div 
     // variants={item}
     className='w-[300px] h-[250px] p-10 ml-5 flex flex-col'>
-        <h1 className='font-semibold tracking-wider text-[25px]'>
+        <h1 className='font-semibold tracking-wider text-[#18181B] text-[25px]'>
             {firstpart}
             <br />
             {secondpart}
         </h1>
-        <p className='text-gray-600 text-lg text-[18px] leading-7 opacity-90 mt-2 w-[250px]'>{discription}</p>
+        <p className='text-[#52525B]text-lg text-[18px] leading-7 opacity-90 mt-2 w-[250px]'>{discription}</p>
 
     </div>
 
